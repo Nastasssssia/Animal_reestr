@@ -1,5 +1,8 @@
 import java.util.Date;
 
+/**
+ * Абстрактный класс для домашних животных, наследующий класс Animal.
+ */
 abstract public class Pet extends Animal {
     public Pet(String name, Date birthDate) {
         super(name, birthDate);

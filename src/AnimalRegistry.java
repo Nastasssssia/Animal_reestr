@@ -2,6 +2,10 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+/**
+ * Класс для ведения реестра животных, реализующий интерфейс AnimalRegistryInterface.
+ */
+
 public class AnimalRegistry implements AnimalRegistryInterface{
     private static List<Animal> animalRegistry = new ArrayList<>();
 
@@ -107,6 +111,12 @@ public class AnimalRegistry implements AnimalRegistryInterface{
         System.out.println("Общее количество животных: " + Animal.getAnimalCount());
     }
 
+    /**
+     * Ищет животное в реестре по имени.
+     *
+     * @param name Имя животного для поиска.
+     * @return Найденное животное или null, если животное не найдено.
+     */
     private static Animal findAnimalByName(String name) {
         for (Animal animal : animalRegistry) {
             if (animal.getName().equalsIgnoreCase(name)) {
