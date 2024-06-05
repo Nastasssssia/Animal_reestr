@@ -1,0 +1,41 @@
+  935  cat > Pets
+
+  936  cat > Pack_animals
+
+  937  ls
+
+  938  cat Pets Pack_animalc > All_animals
+
+  939  cat Pets Pack_animals > All_animals
+
+  940  cat All_animals
+
+  941  ls
+
+  942  mkdir Animal_Files
+
+  943  ls
+
+  944  mv "Human Friends" Animal_Files/
+
+  945  ls Animal_Files
+
+  946  wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
+
+  947  sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
+
+  948  sudo apt-get update
+
+  949  sudo apt-get install mysql-server
+
+  950  sudo systemctl start mysql
+
+  951  sudo systemctl status mysql
+
+  952  sudo dpkg -r mysql-apt-config
+
+  953  history
+
+  954  history > history.txt
+
+
