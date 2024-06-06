@@ -19,7 +19,7 @@ public class AnimalRegistry implements AnimalRegistryInterface{
         System.out.println("5. Верблюд");
         System.out.println("6. Осел");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
 
         System.out.print("Введите имя животного: ");
         String name = scanner.nextLine();
